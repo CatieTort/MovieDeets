@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Movie Deets</title>
+
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500|Roboto+Slab" rel="stylesheet">
+
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+		<section class="header_container">
+			<div class="header">
+				<div class="logo">
+					<span class="fas fa-film"></span>
+					<h1>Movie Deets</h1>
+					</div>
+					<p class="tagline">The place to get all the movie deets</p>
+			</div>
+			<section class="filter_bar">
+				<div class="movie_filters">
+					<div class="filter open">
+						<span class="far fa-caret-square-down"></span>
+						<span class="far fa-caret-square-up hidden"></span>
+						<span class="btn_title">Filter</span>
+					</div>
+					<div class="filter_container hidden">
+						<div class="filters">
+							<label>Category</label>
+								<div class="select_list" id="categories">
+									<div class="selected" data-value="all"><span class="selected">All Categories</span> <span class="fas fa-caret-down"></span><span class="fas fa-caret-up hidden"></span> </div>
+									<div class="options_list hidden" id="categories">
+										<div class="option selected" data-value="all">All Categories</div>
+									</div>
+								</div>
+
+							<label>Directors</label>
+								<div class="select_list" id="directors">
+									<div class="selected" data-value="all"><span class="selected">All Directors</span> <span class="fas fa-caret-down"></span> <span class="fas fa-caret-up hidden"></span> </div>
+									<div class="options_list hidden" id="directors">
+										<div class="option selected" data-value="all">All Directors</div>
+									</div>
+								</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</section>
+		<section class="main_container">
+
+		</section>
+	</body>
+	<script src="js/main.js"></script>
+</html>
